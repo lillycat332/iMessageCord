@@ -187,3 +187,7 @@
 .markup-2BOw-j, .messageContent-2qWWxC {
   padding: 5px;
 }
+
+.markup-2BOw-j::before, .messageContent-2qWWxC::before {
+  background: #1982FC;
+}
