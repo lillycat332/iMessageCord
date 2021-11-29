@@ -64,7 +64,7 @@
 
 .name-uJV0GL {
 	font-family: 'SF Pro Text';
-  font-weight: 700;  
+  font-weight: 550;  
 }
 
 /* messages/chat font */
@@ -87,12 +87,13 @@
 
 .anchor-3Z-8Bb, .anchorUnderlineOnHover-2ESHQB {
   color: #ffffff !important;
-  font-weight: bold;
+  font-weight: bolder !important;
   text-decoration: underline;
 }
 .timestamp-3ZCmNB {
   color: #b7bcc8 !important;
 }
+
 /* topbar color */
 .container-1r6BKw {
   background: rgb(40 40 40) !important;
@@ -101,6 +102,10 @@
 /* username in mono */
 .title-eS5yk3, .subtext-3CDbHg, .searchBar-6Kv8R2 {
   font-family:'SF Mono'
+}
+
+.container-3baos1 {
+  background: rgb(40 40 40);
 }
 
 /* hide annoying fade at chatbar */
@@ -138,7 +143,7 @@
   background: rgb(40 40 40);
 }
 
-.stickerAsset-13j1W0, {
+.stickerAsset-13j1W0 {
   padding: 10px;
 }
 
@@ -177,4 +182,8 @@
 }
 .content-2M3n_H {
   color:#FFFFFF !important;
+}
+
+.markup-2BOw-j, .messageContent-2qWWxC {
+  padding: 5px;
 }
