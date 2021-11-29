@@ -1,0 +1,124 @@
+/* 	Discord Macified - Dark
+		By @lilly#9641 */
+
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+/*Dansk/Norsk*/[aria-label="Send en gave"],
+/*Deutsch*/[aria-label="Ein Geschenk senden"],
+/*English*/[aria-label="Send a gift"],
+/*Español*/[aria-label="Enviar un regalo"],
+/*Français*/[aria-label="Envoyer un cadeau"],
+/*Hrvatski*/[aria-label="Pošalji poklon"],
+/*Italiano*/[aria-label="Invia un regalo"],
+/*Lietuviškai*/[aria-label="Siųsti dovaną"],
+/*Magyar*/[aria-label="Ajándék küldése"],
+/*Nederlands*/[aria-label="Verstuur een cadeau"],
+/*Polski*/[aria-label="Wyślij prezent"],
+/*Português do Brasil*/[aria-label="Enviar um presente"],
+/*Română*/[aria-label="Trimite un cadou"],
+/*Suomi*/[aria-label="Lähetä lahja"],
+/*Svenska*/[aria-label="Skicka en gåva"],
+/*Tiếng Việt*/[aria-label="Tặng một món quà"],
+/*Türkçe*/[aria-label="Bir hediye gönder"],
+/*Čeština*/[aria-label="Odeslat dárek"],
+/*Ελληνικά*/[aria-label="Στείλτε ένα δώρο"],
+/*български*/[aria-label="Изпрати подарък"],
+/*Русский*/[aria-label="Отправить подарок"],
+/*Українська*/[aria-label="Надіслати подарунок"],
+/*ไทย*/[aria-label="ส่งของขวัญ"],
+/*中文*/[aria-label="发送礼物"],
+/*日本語*/[aria-label="ギフトを贈る"],
+/*繁體中文*/[aria-label="發送禮物"],
+/*한국어*/[aria-label="선물 보내기"] {
+    display: none !important;
+}
+.inline-2bgipb.hiddenSpoilers-1ksnR6 { visibility: visible; }
+.inline-2bgipb.hiddenSpoilers-1ksnR6 img { filter: blur(3rem); }
+.inline-2bgipb.hiddenSpoilers-1ksnR6::after {
+	content: "SPOILER";
+	color: var(--text-normal);
+	display: block;
+	text-align: center;
+	top: calc(50% - 0.5rem);
+	position: absolute;
+	width: 100%;
+	font-weight: bold;
+}
+
+:root {
+  --font-primary: 'SF Pro Text';
+  --font-display: "SF Mono";
+  --font-code: "SF Mono",monospace;
+}
+
+/* monospace channel name font */
+#channels {
+  font-family: 'SF Mono';
+	background: rgb(40 40 40)  
+}
+
+.name-1jkAdW, .title-29uC1r {
+	font-family: 'SF Pro Text';
+  font-weight: 700;
+}
+
+.name-uJV0GL {
+	font-family: 'SF Pro Text';
+  font-weight: 700;  
+}
+
+/* messages/chat font */
+.markup-2BOw-j {
+  font-family: 'SF Pro Text';
+  font-weight: 350;
+}
+.messageContent-2qWWxC {
+  font-family: 'SF Pro Text';
+  font-weight: 350;
+  color: #FFFFFF;
+  background: #1982FC !important;
+}
+
+.anchor-3Z-8Bb, .anchorUnderlineOnHover-2ESHQB {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.timestamp-3ZCmNB {
+  color: #b7bcc8 !important;
+}
+/* topbar color */
+.container-1r6BKw {
+  background: rgb(40 40 40) !important;
+}
+
+/* username in mono */
+.title-eS5yk3, .subtext-3CDbHg, .searchBar-6Kv8R2 {
+  font-family:'SF Mono'
+}
+
+/* hide annoying fade at chatbar */
+.form-2fGMdU::before {
+  display: none;
+}
+
+/* sidebar color */
+.macButtons-2MuSAC, .none-2Eo-qx, .scroller-1JbKMe, .scrollerBase-289Jih, .sidebar-CFHs9e {
+ background: rgb(40 40 40); 
+}
+
+/* chat feed color */
+.scroller-2LSbBU, .auto-Ge5KZx, .disableScrollAnchor-3V9UtP, .form-2fGMdU, .chatContent-a9vAAp, .content-yTz4x3, .messagesWrapper-1sRNjr, .peopleColumn-29fq28 {
+  background: rgb(31 30 30);
+}
+
+/* search sidebar */ 
+.channelName-1JRO3C {
+  background: rgb(40 40 40);
+  font-weight: 900;
+}
+/* Date dividers */
+.content-1o0f9g {
+  background: rgb(40 40 40);
+  padding:10px;
+}
