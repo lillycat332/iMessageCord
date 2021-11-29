@@ -108,6 +108,9 @@
   display: none;
 }
 
+.children-19S4PO::after {
+  display: none;
+}
 /* sidebar color */
 .macButtons-2MuSAC, .none-2Eo-qx, .scroller-1JbKMe, .scrollerBase-289Jih, .sidebar-CFHs9e {
  background: rgb(40 40 40); 
@@ -128,6 +131,7 @@
 .content-1o0f9g {
   background: rgb(40 40 40);
   padding:10px;
+  color:#FFFFFF;
 }
 
 .container-16j22k, .fixClipping-3qAKRb {
