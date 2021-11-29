@@ -78,7 +78,13 @@
   color: #FFFFFF;
   background: #1982FC !important;
 }
+<<<<<<< HEAD
+.repliedTextPreview-2NBljf, .clickable-1bVtEA, .messageContent-2qWWxC, .repliedTextContent-1R3vnK {
+  background: rgb(40 40 40);
+}
+=======
 
+>>>>>>> 0d8a8f91795b1744ac09128255e6cdbe388a5a54
 .anchor-3Z-8Bb, .anchorUnderlineOnHover-2ESHQB {
   color: #ffffff !important;
   font-weight: bold;
@@ -121,4 +127,10 @@
 .content-1o0f9g {
   background: rgb(40 40 40);
   padding:10px;
+<<<<<<< HEAD
+}
+.container-16j22k, .fixClipping-3qAKRb {
+  background: rgb(40 40 40);
+=======
+>>>>>>> 0d8a8f91795b1744ac09128255e6cdbe388a5a54
 }
