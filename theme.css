@@ -1,7 +1,6 @@
 /* 	Discord Macified - Dark
 		By @lilly#9641 */
 
-
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 /*Dansk/Norsk*/[aria-label="Send en gave"],
 /*Deutsch*/[aria-label="Ein Geschenk senden"],
@@ -32,6 +31,7 @@
 /*한국어*/[aria-label="선물 보내기"] {
     display: none !important;
 }
+
 .inline-2bgipb.hiddenSpoilers-1ksnR6 { visibility: visible; }
 .inline-2bgipb.hiddenSpoilers-1ksnR6 img { filter: blur(3rem); }
 .inline-2bgipb.hiddenSpoilers-1ksnR6::after {
@@ -72,12 +72,14 @@
   font-family: 'SF Pro Text';
   font-weight: 350;
 }
+
 .messageContent-2qWWxC {
   font-family: 'SF Pro Text';
   font-weight: 350;
   color: #FFFFFF;
   background: #1982FC !important;
 }
+
 .repliedTextPreview-2NBljf, .repliedMessage-VokQwo, .messageContent-2qWWxC, .repliedTextContent-1R3vnK {
   background: #1982FC !important;
   color: #FFFFFF;
@@ -121,24 +123,51 @@
   background: rgb(40 40 40);
   font-weight: 900;
 }
+
 /* Date dividers */
 .content-1o0f9g {
   background: rgb(40 40 40);
   padding:10px;
 }
+
 .container-16j22k, .fixClipping-3qAKRb {
   background: rgb(40 40 40);
 }
 
-.stickerAsset-13j1W0 {
-  padding-top: 10px;
+.stickerAsset-13j1W0, {
+  padding: 10px;
 }
+
 .markup-2BOw-j::before { 
   background: #1982FC;
 }
+
 .messageContent-2qWWxC::before {
   background: #1982FC;
 }
-.bodyInnerWrapper-26fQXj, .body-3HBlXn  {
+
+.bodyInnerWrapper-26fQXj, .body-3HBlXn, .headerTop-3vNv-a {
   background: rgb(31 30 30) !important;
+}
+/* disables active now */
+.container-lRFx4q {
+  display: none !important;
+  padding-bottom: 5px !important;
+}
+
+.reactions-12N0jA {
+  padding-top: 5px;
+}
+
+.scrollableContainer-2NUZem {
+  background: rgb(40 40 40);
+  outline: invert;
+}
+/* stickerpicker */
+.wrapper-1-Fsb8, .packHeader-NLJ7S5{
+  background: rgb(40 40 40);
+}
+
+.headerLabel-3dG4M- {
+  font-weight: bold;
 }
