@@ -78,8 +78,9 @@
   color: #FFFFFF;
   background: #1982FC !important;
 }
-.repliedTextPreview-2NBljf, .clickable-1bVtEA, .messageContent-2qWWxC, .repliedTextContent-1R3vnK {
-  background: rgb(40 40 40)!important;
+.repliedTextPreview-2NBljf, .repliedMessage-VokQwo, .messageContent-2qWWxC, .repliedTextContent-1R3vnK {
+  background: #1982FC !important;
+  color: #FFFFFF;
 }
 
 .anchor-3Z-8Bb, .anchorUnderlineOnHover-2ESHQB {
@@ -127,4 +128,14 @@
 }
 .container-16j22k, .fixClipping-3qAKRb {
   background: rgb(40 40 40);
+}
+
+.stickerAsset-13j1W0 {
+  padding-top: 10px;
+}
+.markup-2BOw-j::before { 
+  background: #1982FC;
+}
+.messageContent-2qWWxC::before {
+  background: #1982FC;
 }
