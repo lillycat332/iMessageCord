@@ -85,12 +85,13 @@
   background: #1982FC !important;
   color: #FFFFFF;
 }
-
+/* link color */
 .anchor-3Z-8Bb, .anchorUnderlineOnHover-2ESHQB {
   color: #ffffff !important;
   font-weight: bolder !important;
   text-decoration: underline;
 }
+/* timestamp + (edited) text) */
 .timestamp-3ZCmNB { color: #b7bcc8 !important; }
 
 /* topbar color */
@@ -146,7 +147,6 @@
 }
 
 .reactions-12N0jA { padding-top: 5px; }
-
 .scrollableContainer-2NUZem {
   background: rgb(40 40 40);
   outline: invert;
@@ -156,7 +156,5 @@
 
 .headerLabel-3dG4M- { font-weight: bold; }
 .content-2M3n_H { color:#FFFFFF !important; }
-
 .messageContent-2qWWxC { padding: 5px; }
-
 .markup-2BOw-j::before, .messageContent-2qWWxC::before, .mentioned-xhSam7 { background: #1982FC; }
